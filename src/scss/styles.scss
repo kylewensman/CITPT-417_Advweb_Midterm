@@ -1,20 +1,52 @@
 // header{
 //   background-color: #108773;
 // }
+
+.container{
+  background-color: white;
+}
+body{
+  background-color: #108773;
+}
 .jumbotron{
   padding: {
     top: 20px;
     bottom: 20px;
   }
+  margin-bottom: 0;
 }
 .nav-item{
   background-color: #E8CB18;
   padding: 2px 5px 2px 5px;
   margin-left: 16px;
   font-size: 1.1em;
-  // margin-top: 20px;
   font-family: cursive;
 }
 .navbar-brand img{
   width: 250px;
+}
+section{
+  padding-top: 56px;
+  padding-bottom: 6px;
+}
+#about{
+  padding-top: 32px;
+}
+#about h1{
+  padding-bottom: 20px;
+}
+#about p{
+  font-size: 22px;
+}
+#info p{
+  font-size: 1.1em;
+  padding-left: 30px;
+}
+footer{
+  text-align: center;
+  background-color: #E9ECEF;
+  padding: 10px 10px 10px 10px;
+}
+footer p{
+  margin: 0;
 }

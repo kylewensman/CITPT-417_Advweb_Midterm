@@ -50,3 +50,11 @@ footer{
 footer p{
   margin: 0;
 }
+td{
+  width: 381px !important;
+}
+td + td{
+  width: 64px !important;
+  text-align: right;
+  width: 100%;
+}

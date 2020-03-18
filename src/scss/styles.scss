@@ -1,13 +1,19 @@
-// header{
-//   background-color: #108773;
-// }
-
+@font-face {
+  font-family: 'Algerian';
+  src: url(../fonts/ALGER.TTF);
+}
 .container{
   background-color: white;
 }
 body{
   background-color: #108773;
+  font-family:  'Calibri', 'Gill Sans', 'Gill Sans MT', sans-serif;
 }
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Algerian', 'serif';
+}
+
+// Header
 .jumbotron{
   padding: {
     top: 20px;
@@ -15,33 +21,19 @@ body{
   }
   margin-bottom: 0;
 }
+
+// Navigation
 .nav-item{
   background-color: #E8CB18;
   padding: 2px 5px 2px 5px;
   margin-left: 16px;
   font-size: 1.1em;
-  font-family: cursive;
 }
 .navbar-brand img{
   width: 250px;
 }
-section{
-  padding-top: 56px;
-  padding-bottom: 6px;
-}
-#about{
-  padding-top: 32px;
-}
-#about h1{
-  padding-bottom: 20px;
-}
-#about p{
-  font-size: 22px;
-}
-#info p{
-  font-size: 1.1em;
-  padding-left: 30px;
-}
+
+// Footer
 footer{
   text-align: center;
   background-color: #E9ECEF;
@@ -50,11 +42,43 @@ footer{
 footer p{
   margin: 0;
 }
-td{
+
+// Space between sections
+section{
+  padding-top: 32px;
+}
+// #######################
+
+// Home
+#about h1{
+  padding-bottom: 20px;
+}
+#about p{
+  font-size: 22px;
+}
+#info{
+  padding-top: 56px;
+  padding-bottom: 6px;
+}
+#info p{
+  font-size: 1.1em;
+  padding-left: 30px;
+}
+
+// Menu
+.menu td{
   width: 381px !important;
 }
-td + td{
+.menu td + td{
   width: 64px !important;
   text-align: right;
   width: 100%;
+}
+
+// Gallery
+.carousel-item img{
+  max-height: 476px;
+}
+#carousel{
+  padding-bottom: 25px;
 }

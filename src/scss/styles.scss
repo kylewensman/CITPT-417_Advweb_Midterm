@@ -4,6 +4,10 @@
 }
 .container{
   background-color: white;
+  padding: {
+    left: 20px;
+    right: 20px;
+  }
 }
 body{
   background-color: #108773;
@@ -72,7 +76,16 @@ section{
 .menu td + td{
   width: 64px !important;
   text-align: right;
-  width: 100%;
+}
+.drinks h2{
+  text-align: center;
+}
+.drinks p{
+  text-align: center;
+  margin: 0;
+}
+#drink-sizesPrices{
+  padding-bottom: 20px;
 }
 
 // Gallery

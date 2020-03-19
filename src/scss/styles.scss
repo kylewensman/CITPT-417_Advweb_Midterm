@@ -2,6 +2,11 @@
   font-family: 'Algerian';
   src: url(../fonts/ALGER.TTF);
 }
+// Theme colors
+$BlueGreen: #108773;
+$Yellow: #E8CB18;
+$OffWhite: #E9ECEF;
+
 .container{
   background-color: white;
   padding: {
@@ -10,7 +15,7 @@
   }
 }
 body{
-  background-color: #108773;
+  background-color: $BlueGreen;
   font-family:  'Calibri', 'Gill Sans', 'Gill Sans MT', sans-serif;
 }
 h1, h2, h3, h4, h5, h6{
@@ -28,8 +33,13 @@ h1, h2, h3, h4, h5, h6{
 
 // Navigation
 .nav-item{
-  background-color: #E8CB18;
-  padding: 2px 5px 2px 5px;
+  background-color: $Yellow;
+  padding: {
+    top: 2px;
+    right: 5px;
+    bottom: 2px;
+    left: 5px;
+  }
   margin-left: 16px;
   font-size: 1.1em;
 }
@@ -40,8 +50,8 @@ h1, h2, h3, h4, h5, h6{
 // Footer
 footer{
   text-align: center;
-  background-color: #E9ECEF;
-  padding: 10px 10px 10px 10px;
+  background-color: $OffWhite;
+  padding: 10px;
 }
 footer p{
   margin: 0;
@@ -61,8 +71,10 @@ section{
   font-size: 22px;
 }
 #info{
-  padding-top: 56px;
-  padding-bottom: 6px;
+  padding: {
+    top: 56px;
+    bottom: 6px;
+  }
 }
 #info p{
   font-size: 1.1em;
@@ -79,12 +91,9 @@ section{
 }
 .drinks{
   padding-top: 0;
-}
-.drinks h2{
   text-align: center;
 }
 .drinks p{
-  text-align: center;
   margin: 0;
 }
 #drink-sizesPrices{
@@ -93,7 +102,7 @@ section{
 
 // Gallery
 .carousel-item img{
-  max-height: 476px;
+  max-height: 350px;
 }
 #carousel{
   padding-bottom: 25px;
